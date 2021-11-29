@@ -1,0 +1,26 @@
+{
+  "name": "playwright-accelerator",
+  "description": "Accelerator to speed up Playwright/Jest testing",
+  "license": "MIT",
+  "repository": "https://github.com/nearform/playwright-accelerator",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint . --ext .js,.jsx",
+    "test": "npx playwright test --workers 4 --reporter=list"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "@playwright/test": "^1.12.3",
+    "eslint": "^7.32.0",
+    "eslint-plugin-jest": "^25.3.0",
+    "eslint-plugin-playwright": "^0.6.0",
+    "jest": "^27.4.0",
+    "jest-playwright-preset": "^1.7.0",
+    "lint-staged": "^12.1.2",
+    "playwright": "^1.12.3"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": "eslint --cache --fix"
+  }
+}
