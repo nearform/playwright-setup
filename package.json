@@ -15,7 +15,7 @@
     "eslint": "^8.3.0",
     "eslint-plugin-jest": "^25.3.0",
     "eslint-plugin-playwright": "^0.6.0",
-    "jest": "^27.4.0",
+    "jest": "^27.4.1",
     "jest-playwright-preset": "^1.7.0",
     "lint-staged": "^12.1.2",
     "playwright": "^1.12.3"
