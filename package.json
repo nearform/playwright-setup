@@ -6,6 +6,7 @@
   "version": "1.0.0",
   "scripts": {
     "lint": "eslint . --ext .js,.jsx",
+    "prepare": "husky install",
     "test": "npx playwright test --workers 4 --reporter=list"
   },
   "devDependencies": {
@@ -14,6 +15,7 @@
     "@playwright/test": "^1.17.0",
     "eslint": "^8.3.0",
     "eslint-plugin-playwright": "^0.6.0",
+    "husky": "^7.0.4",
     "lint-staged": "^12.1.2",
     "playwright": "^1.17.0"
   },
