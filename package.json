@@ -5,14 +5,16 @@
   "repository": "https://github.com/nearform/playwright-setup",
   "version": "1.0.0",
   "scripts": {
-    "lint": "eslint . --ext .js,.jsx",
+    "build": "tsc --noEmit",
+    "lint": "eslint . --ext .ts,.tsx",
     "prepare": "husky install",
-    "test": "npx playwright test --workers 4 --reporter=list"
+    "test": "playwright test --workers 4 --reporter=list"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.1.0",
     "@commitlint/config-conventional": "^16.0.0",
     "@playwright/test": "^1.18.1",
+    "@typescript-eslint/eslint-plugin": "^5.10.2",
     "eslint": "^8.8.0",
     "eslint-plugin-playwright": "^0.7.1",
     "husky": "^7.0.4",
@@ -20,6 +22,6 @@
     "playwright": "^1.18.1"
   },
   "lint-staged": {
-    "*.{js,jsx}": "eslint --cache --fix"
+    "*.{ts,tsx}": "eslint --cache --fix"
   }
 }
