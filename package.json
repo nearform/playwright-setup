@@ -18,7 +18,7 @@
     "eslint": "^8.11.0",
     "eslint-plugin-playwright": "^0.8.0",
     "husky": "^7.0.4",
-    "lint-staged": "^12.3.5",
+    "lint-staged": "^12.3.6",
     "playwright": "^1.20.0"
   },
   "lint-staged": {
