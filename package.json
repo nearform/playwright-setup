@@ -19,7 +19,7 @@
     "eslint-plugin-playwright": "^0.8.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.7",
-    "playwright": "^1.20.2"
+    "playwright": "^1.21.0"
   },
   "lint-staged": {
     "*.{ts,tsx}": "eslint --cache --fix"
