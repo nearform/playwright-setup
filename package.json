@@ -11,7 +11,7 @@
     "test": "playwright test --workers 4 --reporter=list"
   },
   "devDependencies": {
-    "@commitlint/cli": "^16.2.3",
+    "@commitlint/cli": "^16.2.4",
     "@commitlint/config-conventional": "^16.2.1",
     "@playwright/test": "^1.21.1",
     "@typescript-eslint/eslint-plugin": "^5.21.0",
